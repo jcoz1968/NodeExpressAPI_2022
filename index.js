@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
-
+app.use(express.static('public'));
 
 routes(app);
 
